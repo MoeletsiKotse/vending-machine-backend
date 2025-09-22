@@ -10,7 +10,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @Embeddable
 public class Item {
-    private UUID itemId = UUID.randomUUID();
+    private final UUID itemId = UUID.randomUUID();
     private UUID productId;
     private Integer price;
     private Integer quantity;

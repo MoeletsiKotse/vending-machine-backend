@@ -19,7 +19,7 @@ public class Transaction {
     private Integer totalAmount;
     private Integer changeAmount;
     private Integer paidAmount;
-    private int totalItems;
+    private Integer totalItems;
     private OffsetDateTime timeStamp;
     @Version
     private Long version;

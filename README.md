@@ -42,3 +42,15 @@ This project is a Proof of Concept (POC) for a vending machine API built using S
 - **CORS Configuration**: Global CORS configuration is added to allow frontend integration.
 - **Transaction Management**: The `@Transactional` annotation ensures database consistency during purchases.
 - **Logging**: Added logging for debugging and monitoring purposes.
+
+
+## Additional Documentation
+
+### Sequence Diagram
+Refer to the ![database-designjpg.jpg](src%2Fmain%2Fresources%2Fdocs%2Fdatabase-designjpg.jpg) for a detailed sequence diagram illustrating the interaction between the components of the vending machine API.
+
+### Solution Design
+The solution is designed with flexibility and simplicity in mind, adhering to clean code principles and leveraging Spring Boot's modular architecture. For more details, refer to the ![Solution.jpg](src%2Fmain%2Fresources%2Fdocs%2FSolution.jpg).
+
+### Database Design
+The database schema is designed to support the vending machine's operations efficiently. Refer to the ![database-designjpg.jpg](src%2Fmain%2Fresources%2Fdocs%2Fdatabase-designjpg.jpg) for the ER diagram and schema details.
