@@ -31,7 +31,7 @@ This project is a Proof of Concept (POC) for a vending machine API built using S
 2. **Swagger UI**: http://localhost:8080/swagger-ui.html
 
 ## Assumptions
-1. **Authentication**: The application disabled  user authentication or authorization for simplicity.
+1. **Authentication**: The application use Spring security with the username and password for authentication or authorization for simplicity.
 2. **Inventory Management**: The inventory is preloaded and updated after each purchase.
 3. **Change Calculation**: The vending machine provides change based on available cash inventory.
 4. **Frontend Integration**: The API assumes a frontend application will handle user interactions.
